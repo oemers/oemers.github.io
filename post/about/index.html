@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>关于 | Oemers</title>
-<link rel="shortcut icon" href="https://oemers.github.io/favicon.ico?v=1651220251992">
+<link rel="shortcut icon" href="https://oemers.github.io/favicon.ico?v=1651220701467">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://oemers.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="关于 | Oemers - Atom Feed" href="https://oemers.github.io/atom.xml">
@@ -28,7 +28,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://oemers.github.io">
-  <img class="avatar" src="https://oemers.github.io/images/avatar.png?v=1651220251992" alt="">
+  <img class="avatar" src="https://oemers.github.io/images/avatar.png?v=1651220701467" alt="">
   </a>
   <h1 class="site-title">
     Oemers
@@ -123,6 +123,32 @@
 
         
 
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'Iv1.c7f804e8cce6ba81',
+    clientSecret: 'afb7af915b75691c3365a6294fabba3a81b1dd17',
+    repo: 'gridea-comment-gitalk',
+    owner: 'oemers',
+    admin: ['oemers'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
         
 
         <div class="site-footer">
